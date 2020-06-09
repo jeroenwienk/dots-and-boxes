@@ -3,7 +3,9 @@
 }
 
 .App-header {
+  box-sizing: border-box;
   background-color: #282c34;
+  max-height: 20vh;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +16,10 @@
 }
 
 .App-content {
+  box-sizing: border-box;
+  padding: 64px;
   background-color: #282c34;
+  max-height: 80vh;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
